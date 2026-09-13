@@ -8,10 +8,12 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "chromadb>=1.5.9",
     "google-generativeai>=0.8.6",
     "huggingface-hub>=1.31.0",
     "langchain>=1.4.0",
     "langchain-anthropic>=1.7.2",
+    "langchain-chroma>=1.1.0",
     "langchain-community>=0.4.2",
     "langchain-core>=1.6.3",
     "langchain-google-genai>=4.4.0",
